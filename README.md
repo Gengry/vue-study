@@ -6,11 +6,13 @@ npm install
 ```
 
 ### Compiles and hot-reloads for development
+### 在package.json文件中配置的scripts
 ```
 npm run serve
 ```
 
 ### Compiles and minifies for production
+### 在package.json文件中配置的scripts
 ```
 npm run build
 ```
@@ -21,6 +23,7 @@ npm run test
 ```
 
 ### Lints and fixes files
+### 在package.json文件中配置的scripts
 ```
 npm run lint
 ```

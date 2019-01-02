@@ -1,3 +1,3 @@
 module.exports = {
-  lintOnSave: false
+  lintOnSave: false //语法检测
 }
