@@ -16,8 +16,6 @@ const BASE_URL = process.env.NODE_ENV === 'production'
   ? '/'
   : '/'
 
-const BASE_URL = process.env.NODE_ENV === 'procution' ? '/cpw-admin' : '/'
-
 module.exports = {
   baseUrl: BASE_URL,
   // tweak internal webpack configuration.
@@ -31,9 +29,9 @@ module.exports = {
   },
 
   productionSourceMap: false,
-  devServer: {
-    proxy: 'http://localhost:4000'
-  }
+  // devServer: {
+  //   proxy: 'http://localhost:4000'
+  // }
 
 }
 
